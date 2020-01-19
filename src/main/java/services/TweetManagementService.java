@@ -1,4 +1,4 @@
-package services.impl;
+package services;
 
 import model.Tweet;
 
@@ -8,7 +8,7 @@ public interface TweetManagementService {
 
     void addTweet(String userLogin,String message);
 
-    void update
+    void updateTweet(Long tweetId,String message);
 
     void deleteTweet(Long id);
 

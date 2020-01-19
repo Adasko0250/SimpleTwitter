@@ -47,4 +47,6 @@ public class HibernateUtil {
     public EntityManager getEntityManager() {
         return entityManager;
     }
+
+
 }
