@@ -39,10 +39,10 @@ public class User {
     @ManyToMany(mappedBy = "follows")
     private Set<User> followers = new HashSet<>();
 
-    @ManyToMany(cascade = {CascadeType.MERGE,CascadeType.PERSIST})
+    @ManyToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     @JoinTable(name = "follows_followers",
-    joinColumns = {@JoinColumn(name = "follows_id")},
-    inverseJoinColumns = {@JoinColumn(name = "followed_id")})
+            joinColumns = {@JoinColumn(name = "follows_id")},
+            inverseJoinColumns = {@JoinColumn(name = "followed_id")})
 
     private Set<User> follows = new HashSet<>();
 
@@ -132,7 +132,7 @@ public class User {
                 '}';
     }
 
-    public static class UserBuilder{
+    public static class UserBuilder {
 
         private String login;
         private String name;
@@ -141,33 +141,37 @@ public class User {
         private String email;
 
 
-
-        public static UserBuilder getBuilder(){
+        public static UserBuilder getBuilder() {
             return new UserBuilder();
         }
-        public UserBuilder login(String login){
-            this.login= login;
-            return this;
-        }
-        public UserBuilder name(String name){
-            this.name= name;
-            return this;
-        }
-        public UserBuilder lastName(String lastName){
-            this.lastName= lastName;
-            return this;
-        }
-        public UserBuilder password(String password){
-            this.password= password;
-            return this;
-        }
-        public UserBuilder email(String email){
-            this.email= email;
+
+        public UserBuilder login(String login) {
+            this.login = login;
             return this;
         }
 
-        public User build(){
-            User user =  new User();
+        public UserBuilder name(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public UserBuilder surname(String lastName) {
+            this.lastName = lastName;
+            return this;
+        }
+
+        public UserBuilder password(String password) {
+            this.password = password;
+            return this;
+        }
+
+        public UserBuilder email(String email) {
+            this.email = email;
+            return this;
+        }
+
+        public User build() {
+            User user = new User();
             user.setName(this.name);
             user.setLastName(this.lastName);
             user.setLogin(this.login);

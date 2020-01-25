@@ -28,13 +28,24 @@ public class UserManagementServiceImpl implements UserManagementService {
 
 
     @Override
-    public boolean isUserExists(String login) {
+    public boolean isUserLoginExists(String login) {
         try {
             userDAO.getUserByLogin(login);
             return true;
         } catch (NoResultException e) {
             return false;
         }
+    }
+
+    @Override
+    public boolean isUserEmailExist(String email) {
+        try {
+            userDAO.getUserByEmail(email);
+            return true;
+        } catch (NoResultException e) {
+            return false;
+        }
+
     }
 
     @Override
