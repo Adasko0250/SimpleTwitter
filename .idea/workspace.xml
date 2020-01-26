@@ -6,31 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c921dc8e-222f-4edc-b4e7-a5b3b2acaf79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/UsersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Utils/ServletsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Utils/ServletsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Impl/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/UserManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/UserManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/impl/UserManagementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/impl/UserManagementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/Utils/ServletsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/Utils/ServletsUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/dao/Impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/dao/Impl/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/model/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/UserManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/UserManagementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/impl/UserManagementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/impl/UserManagementServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/Utils/ServletsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/Utils/ServletsUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/Impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/Impl/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/UserManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/UserManagementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/impl/UserManagementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/impl/UserManagementServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="c921dc8e-222f-4edc-b4e7-a5b3b2acaf79" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +195,7 @@
       <workItem from="1579292026282" duration="6000" />
       <workItem from="1579334827909" duration="12878000" />
       <workItem from="1579957195358" duration="8555000" />
-      <workItem from="1580025858291" duration="1920000" />
+      <workItem from="1580025858291" duration="2253000" />
     </task>
     <servers />
   </component>
