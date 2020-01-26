@@ -35,8 +35,6 @@ public class UserDAOImpl extends AbstractDao implements UserDAO {
         return query.setParameter("email", email).getSingleResult();
     }
 
-
-
     @Override
     public Set<User> getFollows(String login) {
         return getUserByLogin(login).getFollows();

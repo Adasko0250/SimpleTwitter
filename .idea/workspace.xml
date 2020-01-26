@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SimpleTwitter:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c921dc8e-222f-4edc-b4e7-a5b3b2acaf79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/UsersServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Utils/ServletsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Utils/ServletsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Impl/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/UserManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/UserManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/impl/UserManagementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/impl/UserManagementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/Utils/ServletsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/Utils/ServletsUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/controllers/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/dao/Impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/dao/Impl/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/UserManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/UserManagementService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/impl/UserManagementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/WEB-INF/classes/services/impl/UserManagementServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleTwitter/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleTwitter/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/Utils/ServletsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/Utils/ServletsUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/Impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/Impl/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/UserManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/UserManagementService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/impl/UserManagementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/impl/UserManagementServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +41,24 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -43,7 +82,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2091954" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ildrasil\Desktop\12.01.2020\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="SimpleTwitter" />
@@ -51,6 +95,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SimpleTwitter_war/login" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SimpleTwitter:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SimpleTwitter_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SimpleTwitter_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59522" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SimpleTwitter:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
@@ -61,8 +182,19 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.22727273" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -86,7 +218,8 @@
       <workItem from="1579291890487" duration="8000" />
       <workItem from="1579292026282" duration="6000" />
       <workItem from="1579334827909" duration="12878000" />
-      <workItem from="1579957195358" duration="277000" />
+      <workItem from="1579957195358" duration="8555000" />
+      <workItem from="1580025858291" duration="1920000" />
     </task>
     <servers />
   </component>
@@ -98,50 +231,110 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579335751570" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579964254125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579964254125" />
     <state x="721" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579348623258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579348623258" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1579345876696">
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1579959668828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579345876696" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579959668828" />
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579961615614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579961615614" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1579335612221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579335612221" />
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1579341167783">
+    <state width="1427" height="221" key="GridCell.Tab.0.bottom" timestamp="1580027736003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579341167783" />
-    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1579341167783">
+    <state width="1427" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.0.center" timestamp="1580027736003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579341167783" />
-    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1579341167783">
+    <state width="1427" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.0.left" timestamp="1580027736003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579341167783" />
-    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1579341167783">
+    <state width="1427" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.0.right" timestamp="1580027736003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579341167783" />
+    <state width="1427" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.1.bottom" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.1.center" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.1.left" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.1.right" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.2.bottom" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.2.center" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.2.left" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1427" height="221" key="GridCell.Tab.2.right" timestamp="1580027736003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1427" height="221" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580027736003" />
+    <state width="1293" height="350" key="GridCell.Tab.3.bottom" timestamp="1579963218628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="350" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579963218628" />
+    <state width="1293" height="350" key="GridCell.Tab.3.center" timestamp="1579963218627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="350" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579963218627" />
+    <state width="1293" height="350" key="GridCell.Tab.3.left" timestamp="1579963218627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="350" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579963218627" />
+    <state width="1293" height="350" key="GridCell.Tab.3.right" timestamp="1579963218627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="350" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579963218627" />
+    <state x="672" y="237" key="MultipleFileMergeDialog" timestamp="1579957588811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579957588811" />
     <state x="208" y="95" width="1272" height="849" key="SettingsEditor" timestamp="1579337914294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="208" y="95" width="1272" height="849" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579337914294" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579334843804">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580025857956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579334843804" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580025857956" />
     <state x="0" y="108" width="1463" height="1017" key="dock-window-1" timestamp="1579336395378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="108" width="1463" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1579336395378" />
-    <state x="741" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579957529236">
+    <state x="741" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579957574812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579957529236" />
+    <state x="741" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579957574812" />
     <state x="342" y="216" key="new project wizard" timestamp="1579336268408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

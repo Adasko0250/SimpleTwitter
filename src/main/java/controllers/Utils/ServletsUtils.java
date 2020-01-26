@@ -19,9 +19,12 @@ public class ServletsUtils {
     public static final String WRONG_PASSWORD_ERROR_MESSAGE = "Wrong password";
     public static final String LOGIN_IN_USE_ERROR_MESSAGE = "Typed login is already in use";
     public static final String EMAIL_ERROR_MESSAGE = "Typed email is already in use";
+    public static final String FOLLOWED_USERS = "followedUsers";
+    public static final String NOT_FOLLOWED_USERS = "notfollowedUsers";
+
 
     public static String getUserLoginFromSession(HttpServletRequest req) {
-        return (String) req.getSession().getAttribute(ServletsUtils.USER_NAME);
+        return (String) req.getSession().getAttribute(ServletsUtils.USER_LOGIN);
     }
 
 }

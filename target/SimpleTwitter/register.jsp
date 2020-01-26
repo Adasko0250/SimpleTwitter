@@ -26,11 +26,11 @@
         <hr>
         <c:if test="${errors != null}">
             <c:forEach items="${errors}" var="error">
-        <div class="alert alert-warning">
-            <strong>${error.header}</strong>
-            <br>
-            <strong>${error.message}</strong>
-        </div>
+                <div class="alert alert-warning">
+                    <strong>${error.header}</strong>
+                    <br>
+                    <strong>${error.message}</strong>
+                </div>
             </c:forEach>
         </c:if>
         <form action="register" method="POST" onsubmit="return checkPasswordIdentity(this)">

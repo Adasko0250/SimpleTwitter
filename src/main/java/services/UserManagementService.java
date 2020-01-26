@@ -16,6 +16,8 @@ public interface UserManagementService  {
 
     Set<User> getNotFollowedUsers(String login);
 
+    Set<User> getFollowedUsers(String login);
+
     boolean isUserValid(String login, String password);
 
     boolean isUserLoginExists(String login);
